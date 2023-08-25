@@ -1,6 +1,6 @@
 body{
     background-image: url(../img/background2.png);
-    background-size: cover;
+
 }
 h1{
 	font-size: 150px;
@@ -9,7 +9,7 @@ h1{
 	text-align: center;
 }
 .p-1{
-	font-size: medium;
+	font-size: large;
 	color: #ffffff;
 }
 img {
@@ -77,7 +77,10 @@ z-index: 99;
 .social-logo{
     height: 100px;
     width: 100px;
-    margin-left: 200px;
+}
+.icons{
+	display: flex;
+	justify-content: center;
 }
 .button-1 {
 	width: 65px;
