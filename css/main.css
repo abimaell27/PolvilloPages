@@ -40,18 +40,23 @@ z-index: 99;
 	margin: 150px;
 }
 
+/* Estilo para el contenedor */
 .contenedor {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 100vh; /* 100% del alto de la ventana */
+    max-width: 80%; /* Establece un tamaño máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    height: auto; /* Ajusta automáticamente la altura según el contenido */
 }
 
 /* Estilo para la imagen */
 .contenedor img {
     max-width: 100%; /* La imagen no será más ancha que el contenedor */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    max-height: 80vh; /* Establece un tamaño máximo para la altura de la imagen */
 }
+
 
 .sep-titulo{
     margin-bottom: 50px;
