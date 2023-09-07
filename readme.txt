@@ -10,3 +10,7 @@ by Abimael clase 6 camada 46810
     <script>
         AOS.init();
     </script>
+
+----fade-----
+    data-aos="fade-left"
+    data-aos="fade-right"
