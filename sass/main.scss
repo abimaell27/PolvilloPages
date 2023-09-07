@@ -19,7 +19,19 @@ body{
 /*---- help text----*/
 
 h1{
-	font-size: 50px;
+	font-size: 35px;
+	color: #ffffff;
+	line-height: 1.5;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1.5;
+	text-align: center;
+}
+h3{
+	font-size: 15px;
 	color: #ffffff;
 	line-height: 1.5;
 	text-align: center;
@@ -43,6 +55,21 @@ h1{
     margin-bottom: 50px;
     margin-top: 100px;
 }
+.sep-button{
+    margin-bottom: 1px;
+    margin-top: 100px;
+}
+.sep-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sep-align{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
 .paragraph-1 {
 	width: 1140px;
 	height: 236px;
@@ -54,6 +81,16 @@ h1{
 	line-height: 1.5;
 	text-align: center;
 }
+.res-div {
+    width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
+    max-width: 400px; /* Puedes ajustar este valor según tus necesidades */
+    height: auto; /* La altura se ajustará automáticamente según el contenido */
+    background-color: #eaeaea00; /* Cambia el color de fondo según tu preferencia */
+    padding: 20px; /* Agrega relleno interno según tus necesidades */
+    margin: 0 auto; /* Centra el div horizontalmente en su contenedor */
+    box-sizing: border-box; /* Asegura que el ancho y el alto incluyan el relleno y el borde */
+}
+
 
 /* ----- imagenes helps -----*/
 .img-ho{
@@ -80,6 +117,14 @@ img {
     height: 100px;
     width: 100px;
 }
+
+.responsive-div {
+    width: 200px; /* Establece el ancho a 200px */
+    height: 200px; /* Establece la altura a 200px */
+    max-width: 100%; /* Evita que el elemento sea más ancho que su contenedor */
+    max-height: 100%; /* Evita que el elemento sea más alto que su contenedor */
+}
+
 
 /* ----- nav bar ----- */
 nav{
@@ -173,3 +218,7 @@ z-index: 99;
 
 .flicker-in-1{animation:flicker-in-1 4s cubic-bezier(.785,.135,.15,.86) both}
 @keyframes flicker-in-1{0%{opacity:0}10%{opacity:0}10.1%{opacity:1}10.2%{opacity:0}20%{opacity:0}20.1%{opacity:1}20.6%{opacity:0}30%{opacity:0}30.1%{opacity:1}30.5%{opacity:1}30.6%{opacity:0}45%{opacity:0}45.1%{opacity:1}50%{opacity:1}55%{opacity:1}55.1%{opacity:0}57%{opacity:0}57.1%{opacity:1}60%{opacity:1}60.1%{opacity:0}65%{opacity:0}65.1%{opacity:1}75%{opacity:1}75.1%{opacity:0}77%{opacity:0}77.1%{opacity:1}85%{opacity:1}85.1%{opacity:0}86%{opacity:0}86.1%{opacity:1}100%{opacity:1}}
+
+
+
+

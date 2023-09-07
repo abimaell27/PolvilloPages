@@ -19,7 +19,21 @@ body {
 
 /*---- help text----*/
 h1 {
-  font-size: 50px;
+  font-size: 35px;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
   color: #ffffff;
   line-height: 1.5;
   text-align: center;
@@ -47,6 +61,21 @@ h1 {
   margin-top: 100px;
 }
 
+.sep-button {
+  margin-bottom: 1px;
+  margin-top: 100px;
+}
+
+.sep-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sep-align {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 .paragraph-1 {
   width: 1140px;
   height: 236px;
@@ -57,6 +86,16 @@ h1 {
   font-size: 22px;
   line-height: 1.5;
   text-align: center;
+}
+
+.res-div {
+  width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
+  max-width: 400px; /* Puedes ajustar este valor según tus necesidades */
+  height: auto; /* La altura se ajustará automáticamente según el contenido */
+  background-color: rgba(234, 234, 234, 0); /* Cambia el color de fondo según tu preferencia */
+  padding: 20px; /* Agrega relleno interno según tus necesidades */
+  margin: 0 auto; /* Centra el div horizontalmente en su contenedor */
+  box-sizing: border-box; /* Asegura que el ancho y el alto incluyan el relleno y el borde */
 }
 
 /* ----- imagenes helps -----*/
@@ -87,6 +126,13 @@ img {
 .social-logo {
   height: 100px;
   width: 100px;
+}
+
+.responsive-div {
+  width: 200px; /* Establece el ancho a 200px */
+  height: 200px; /* Establece la altura a 200px */
+  max-width: 100%; /* Evita que el elemento sea más ancho que su contenedor */
+  max-height: 100%; /* Evita que el elemento sea más alto que su contenedor */
 }
 
 /* ----- nav bar ----- */
