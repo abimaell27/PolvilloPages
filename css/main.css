@@ -132,6 +132,11 @@ img {
   margin: 150px;
 }
 
+.image-sell{
+  width: 500px;
+  height: 500px;
+}
+
 .social-logo {
   height: 100px;
   width: 100px;
